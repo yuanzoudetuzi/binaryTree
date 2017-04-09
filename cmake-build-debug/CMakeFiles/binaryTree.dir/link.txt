@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\binaryTree.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\binaryTree.dir/objects.a @CMakeFiles\binaryTree.dir\objects1.rsp
+D:\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\binaryTree.dir/objects.a -Wl,--no-whole-archive  -o binaryTree.exe -Wl,--out-implib,libbinaryTree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\binaryTree.dir\linklibs.rsp
